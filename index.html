@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Samy | Back End Developer</title>
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="Portfolio of Yousef Samy, a Back End PHP Laravel Developer based in Cairo, Egypt. Specializing in secure, dynamic web applications.">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Yousef Samy<span></span></a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls" style="display: flex; align-items: center; gap: 15px;">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class='bx bx-moon'></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Snow Animation Container -->
+    <div class="snow-container">
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+        <div class="snowflake"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content fade-up" style="text-align: center;">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-name">Yousef <span>Samy</span></h1>
+                <h2 class="hero-title">I am a <span class="type-effect"
+                        data-words='["Back End Developer", "Laravel Specialist", "PHP Expert", "Database Designer"]'></span>
+                </h2>
+                <p class="hero-description" style="margin: 0 auto 40px auto;">
+                    Student at the Egyptian Russian University, majoring in Management Information Systems.
+                    I build secure, scalable backend solutions and dynamic web applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                </div>
+                <div class="social-links" style="justify-content: center;">
+                    <a href="https://github.com/yousafSamy1/" target="_blank" class="social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/yousef-samy-2680282b4/" target="_blank" class="social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:yousafsamy50@gmail.com" class="social-icon"><i class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class='bx bx-mouse' style="font-size: 2rem;"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">About Me</h2>
+            <div class="about-grid fade-up">
+                <div class="about-img-container">
+                    <div class="about-img-bg"></div>
+                    <!-- Placeholder image, user should replace this -->
+                    <div class="about-img"
+                        style="height: auto; min-height: 300px; background: #ddd; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                        <img src="images/Screenshot_3.png" alt="Yousef Samy"
+                            style="width:100%; height:auto; display: block;"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-user\' style=\'font-size: 5rem; color: #888;\'></i>'">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Backend Developer</h3>
+                    <p>
+                        I am currently a student at the Egyptian Russian University, majoring in Management information
+                        systems.
+                        I have strong skills in database management, system analysis and design, and backend
+                        development.
+                        My expertise lies in using PHP and the Laravel framework to create robust web applications.
+                    </p>
+                    <p>
+                        Through academic projects and internships, I have honed my skills in SQL, data analysis, and
+                        programming.
+                        I am eager to leverage my technical knowledge to solve real-world problems.
+                    </p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class='bx bx-map'></i>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                        <div class="info-item">
+                            <i class='bx bx-phone'></i>
+                            <span>+201002422293</span>
+                        </div>
+                        <div class="info-item">
+                            <i class='bx bx-envelope'></i>
+                            <span>yousafsamy50@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class='bx bxs-graduation'></i>
+                            <span>Bachelor of MIS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Experience & Education</h2>
+            <div class="timeline fade-up">
+
+                <!-- Education -->
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h4>Oct 2022 – Present</h4>
+                        <h2>Egyptian Russian University</h2>
+                        <p>Bachelor of Management Information System</p>
+                        <p style="font-size: 0.85rem; margin-top: 5px;">Cairo, Badr</p>
+                    </div>
+                </div>
+
+                <!-- Internship 1 -->
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h4>July 2024 – Aug 2025</h4>
+                        <h2>Trainee PHP Backend Developer</h2>
+                        <p>Information Technology Institute (ITI)</p>
+                        <ul
+                            style="list-style-type: disc; padding-left: 15px; margin-top: 10px; font-size: 0.9rem; color: var(--text-muted);">
+                            <li>Focusing on PHP, MySQL, OOP, and MVC architecture.</li>
+                            <li>Enhanced dynamic/secure web apps using Laravel.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Internship 2 -->
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h4>Aug 2025 – Aug 2025</h4>
+                        <h2>Business Technology Intern</h2>
+                        <p>Amoun Pharmaceutical Co.</p>
+                        <ul
+                            style="list-style-type: disc; padding-left: 15px; margin-top: 10px; font-size: 0.9rem; color: var(--text-muted);">
+                            <li>Expanded a PHP & MySQL ticketing system blended with Inventory Management.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Internship 3 -->
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h4>Jan 2025 – Apr 2025</h4>
+                        <h2>Freelance Web Developer Intern</h2>
+                        <p>EYouth Internship (MCIT)</p>
+                        <ul
+                            style="list-style-type: disc; padding-left: 15px; margin-top: 10px; font-size: 0.9rem; color: var(--text-muted);">
+                            <li>Developed 2 responsive websites using HTML, CSS, Javascript.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Internship 4 -->
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h4>Oct 2024 – May 2025</h4>
+                        <h2>Trainee PHP Backend Developer</h2>
+                        <p>Route IT Training Center</p>
+                        <ul
+                            style="list-style-type: disc; padding-left: 15px; margin-top: 10px; font-size: 0.9rem; color: var(--text-muted);">
+                            <li>Worked on hands-on projects involving database design and backend logic.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">My Projects</h2>
+            <div class="projects-grid fade-up">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/hotel_booking.jpeg" alt="Hotel Booking System"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-hotel\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hotel Booking System</h3>
+                        <p class="project-desc">Full-stack hotel booking platform with secure authentication, GitHub
+                            OAuth, and Stripe payments.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Stripe</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                            <a href="#" class="link-btn" title="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/ecommerce.png" alt="E-Commerce Platform"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-shopping-bag\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-desc">Full-stack platform with product management, cart operations, real-time
+                            payments, and RBAC.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                            <a href="#" class="link-btn" title="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/blog_system.png" alt="Dynamic Blog System"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-news\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dynamic Blog System</h3>
+                        <p class="project-desc">Blogging platform with secure authentication and clean admin UI.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Database Management -->
+                <!-- <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/hospital_management.png" alt="Hospital Management"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-data\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hospital Management</h3>
+                        <p class="project-desc">Comprehensive database system for managing patient records,
+                            appointments, and staff schedules.</p>
+                        <div class="project-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">ERD Design</span>
+                            <span class="tag">Normalisation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 6: Student System -->
+                <!-- <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/university_system.png" alt="University Info System"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bxs-school\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">University Info System</h3>
+                        <p class="project-desc">Student information management system with grade tracking and course
+                            registration modules.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Database</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 7: Inventory -->
+                <!-- <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/inventory_tracker.png" alt="Inventory Tracker"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'bx bx-box\' style=\'font-size: 4rem; color: #888;\'></i>'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Inventory Tracker</h3>
+                        <p class="project-desc">Efficient inventory system for tracking pharmaceutical stock levels and
+                            movements.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">Reporting</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-btn" title="View Code"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Technical Skills</h2>
+            <div class="skills-container fade-up">
+
+                <div class="skill-category">
+                    <h3><i class='bx bx-code-alt'></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-php'></i> PHP</div>
+                        <div class="skill-item"><i class='bx bxl-python'></i> Python</div>
+                        <div class="skill-item"><i class='bx bx-code-curly'></i> C#</div>
+                        <div class="skill-item"><i class='bx bx-code'></i> C++</div>
+                        <div class="skill-item"><i class='bx bxl-javascript'></i> JavaScript</div>
+                        <div class="skill-item"><i class='bx bxl-html5'></i> HTML5</div>
+                        <div class="skill-item"><i class='bx bxl-css3'></i> CSS3</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class='bx bx-layer'></i> Frameworks & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-laravel'></i> Laravel</div>
+                        <div class="skill-item"><i class='bx bxl-bootstrap'></i> Bootstrap</div>
+                        <div class="skill-item"><i class='bx bx-data'></i> MySQL</div>
+                        <div class="skill-item"><i class='bx bxl-react'></i> React (Basic)</div>
+                        <div class="skill-item"><i class='bx bx-server'></i> REST APIs</div>
+                        <div class="skill-item"><i class='bx bxl-docker'></i> Docker</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class='bx bx-wrench'></i> Tools & Concepts</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-git'></i> Git/GitHub</div>
+                        <div class="skill-item"><i class='bx bx-terminal'></i> Linux</div>
+                        <div class="skill-item">MVC</div>
+                        <div class="skill-item">OOP</div>
+                        <div class="skill-item">SOLID Principles</div>
+                        <div class="skill-item">Agile</div>
+                        <div class="skill-item">Database Design</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In Touch</h2>
+            <div class="contact-container fade-up">
+
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class='bx bx-phone'></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+201002422293</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class='bx bx-envelope'></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>yousafsamy50@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class='bx bx-map'></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class='bx bxl-linkedin'></i></div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/yousef-samy-2680282b4/" target="_blank">View
+                                    Profile</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="mailto:yousafsamy50@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yousef Samy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
